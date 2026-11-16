@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Pipsy for WooCommerce
+  structure:
+    - type: space
+      key: space-pipsy-woocommerce
+      title: Pipsy for WooCommerce
+      path: docs
+      default: true
+      content:
+        directory: ./
