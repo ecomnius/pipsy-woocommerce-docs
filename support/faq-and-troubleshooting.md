@@ -18,6 +18,14 @@ Kitify, Pipsy Core and Pipsy Package Demo Data are downloaded from `assets.novaw
 
 Increase `max_execution_time` and `memory_limit` (see [Requirements](../getting-started/requirements-for-pipsy.md)), then run it again from **Tools > Demo Importer**.
 
+**I imported the demo but visitors see a "Coming soon" page.**
+
+A new WooCommerce install starts in **Coming soon** mode: logged-in administrators see the site, everyone else sees a waiting page. Go to **WooCommerce > Settings > Site visibility**, choose **Live** and click **Save changes**. This is a WooCommerce default, not a theme setting.
+
+**The import says "Contact Form 7 must be installed and active".**
+
+The demo contains the contact form, so the importer needs Contact Form 7. Activate it in **Plugins > Installed Plugins** and start the import again.
+
 **Products and pages are imported without images.**
 
 The images are downloaded from `pipsy.ecomnius.com` during the import. Ask your host to allow outgoing HTTPS requests, then click **Re-Import**.

@@ -68,8 +68,4 @@ Scripts:
 | TGM Plugin Activation | GPL-2.0-or-later |
 | Isotope 3.0.6, fancyBox 3.5.7 | GPLv3, or a commercial license from their authors |
 
-<!-- TODO: confirm how Isotope and fancyBox are licensed for this item (GPLv3 or a commercial/OEM license held by Novaworks), and add the licenses of TweenMax (GSAP), animatedModal.js, instafeed.js, jquery-visible, readmore and video-popup-js: their files carry no license header. -->
-
-<!-- TODO: list the sources and licenses of the demo photos before release; they are not recorded in the repository. -->
-
 The photos of the demo are for preview only and are not included for use on your site.
