@@ -34,7 +34,7 @@ Kitify, Pipsy Core and Pipsy Package Demo Data are updated together with the the
 
 1. After updating the theme, go to **Appearance > Install Plugins**. The menu item appears when a bundled plugin has a new version.
 2. Plugins with a new version show **Update Required**. Select them, choose **Update** from the bulk action menu and click **Apply**.
-3. If the download fails, update them by hand: go to **Plugins > Add New Plugin > Upload Plugin** and upload the ZIP files from the `plugins` folder of the full theme package. WordPress asks to **Replace current with uploaded**.
+3. If the download fails, update them by hand: go to **Plugins > Add New Plugin > Upload Plugin** and upload the ZIP files from the `Plugins` folder of the full theme package. WordPress asks to **Replace current with uploaded**.
 
 WooCommerce, Elementor and the other plugins from WordPress.org update from **Dashboard > Updates** as usual.
 

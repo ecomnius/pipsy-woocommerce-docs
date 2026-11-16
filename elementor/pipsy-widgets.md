@@ -1,6 +1,6 @@
 # Pipsy Widgets
 
-On top of the Elementor and Kitify widgets, Pipsy adds 14 widgets of its own. Find them in the Elementor panel by searching for **Pipsy**.
+On top of the Elementor and Kitify widgets, Pipsy adds 14 widgets of its own. They are part of the **Pipsy Core** plugin, so keep that plugin active. Find them in the Elementor panel by searching for **Pipsy**.
 
 <figure><img src="../.gitbook/assets/elementor-editor-home.jpg" alt="Pipsy widgets in the Elementor panel"><figcaption><p>Search "Pipsy" in the Elementor panel</p></figcaption></figure>
 

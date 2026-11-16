@@ -12,7 +12,7 @@ The menu item is only shown while a required or recommended plugin is missing, i
 
 **A bundled plugin can't be downloaded.**
 
-Kitify, Pipsy Core and Pipsy Package Demo Data are downloaded from `assets.novaworks.net`. If your server blocks outgoing requests, upload the ZIP files from the `plugins` folder of the theme package in **Plugins > Add New Plugin > Upload Plugin**.
+Kitify, Pipsy Core and Pipsy Package Demo Data are downloaded from `assets.novaworks.net`. If your server blocks outgoing requests, upload the ZIP files from the `Plugins` folder of the theme package in **Plugins > Add New Plugin > Upload Plugin**.
 
 **The demo import stops before the end.**
 

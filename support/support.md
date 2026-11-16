@@ -50,6 +50,26 @@ It is built on:
 * [WCBoost – Variation Swatches](https://wordpress.org/plugins/wcboost-variation-swatches/), [WCBoost – Wishlist](https://wordpress.org/plugins/wcboost-wishlist/) and [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 * Fonts from [Google Fonts](https://fonts.google.com/): Gabarito and Bagel Fat One (SIL Open Font License)
 
-<!-- TODO: list the sources and licenses of the demo photos and of any bundled third-party scripts (for example the slider library) before release. -->
+### Bundled resources
+
+Fonts:
+
+* Bagel Fat One and Gabarito – SIL Open Font License 1.1
+* Font Awesome 4.7.0 – font: SIL OFL 1.1, CSS: MIT
+* Slick icon font – MIT
+
+Scripts:
+
+| Library | License |
+| --- | --- |
+| Swiper, Slick 1.8.0, anime.js, mo.js, js-cookie 2.1.1, Foundation (with normalize.css), Headroom.js 0.9.3, hoverIntent 1.9.0, jQuery LoadingOverlay 2.1.6, jQuery.scrollTo 2.1.2, modal-video 2.4.2, perfect-scrollbar 0.7.1 | MIT |
+| ScrollMagic 2.0.6 | MIT / GPL dual license |
+| Sticky-kit 1.1.2 | WTFPL |
+| TGM Plugin Activation | GPL-2.0-or-later |
+| Isotope 3.0.6, fancyBox 3.5.7 | GPLv3, or a commercial license from their authors |
+
+<!-- TODO: confirm how Isotope and fancyBox are licensed for this item (GPLv3 or a commercial/OEM license held by Novaworks), and add the licenses of TweenMax (GSAP), animatedModal.js, instafeed.js, jquery-visible, readmore and video-popup-js: their files carry no license header. -->
+
+<!-- TODO: list the sources and licenses of the demo photos before release; they are not recorded in the repository. -->
 
 The photos of the demo are for preview only and are not included for use on your site.

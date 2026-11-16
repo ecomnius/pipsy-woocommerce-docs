@@ -29,39 +29,16 @@ Pipsy exposes its design tokens as CSS variables with the `--nova-` prefix, set 
 
 Use a child theme to override template files or add PHP.
 
-<!-- TODO: no pipsy-child.zip exists in the repository yet. Add it to the ThemeForest package (as done for Formrest) and change this section to "install pipsy-child.zip from the package". -->
+A child theme is included in the package: `Theme Files/pipsy-child.zip`. It holds a `style.css` for your CSS and a `functions.php` for your PHP, and it loads its stylesheet after the Pipsy theme CSS, so your rules win.
 
-Create a folder `wp-content/themes/pipsy-child` with two files.
+1. Install and activate the **Pipsy** theme first, see [Step 2 - Install Theme](../installation/step-2-install-theme.md).
+2. Go to **Appearance > Themes > Add New Theme > Upload Theme**, choose `pipsy-child.zip` and click **Install Now**.
+3. Click **Activate**. The parent theme must stay installed.
 
-`style.css`:
-
-```css
-/*
-Theme Name: Pipsy Child
-Template: pipsy
-Version: 1.0.0
-Text Domain: pipsy-child
-*/
-```
-
-`functions.php`:
-
-```php
-<?php
-add_action( 'wp_enqueue_scripts', function () {
-	wp_enqueue_style(
-		'pipsy-child',
-		get_stylesheet_uri(),
-		array(),
-		wp_get_theme()->get( 'Version' )
-	);
-}, 20 );
-```
-
-Then go to **Appearance > Themes** and activate **Pipsy Child**. The parent theme must stay installed.
+Add your CSS at the end of `pipsy-child/style.css` and your PHP in `pipsy-child/functions.php`. Pipsy updates do not overwrite these files.
 
 {% hint style="info" %}
-Theme Options, menus, widgets and Elementor content are kept when you switch to the child theme. Check **Appearance > Menus > Manage Locations** after switching, and assign the menus again if a location is empty.
+Theme Options and Elementor content are kept when you switch to the child theme. Menu locations and Customizer settings are stored per theme: check **Appearance > Menus > Manage Locations** after switching, and assign the menus again if a location is empty.
 {% endhint %}
 
 ### Override a template
@@ -81,4 +58,4 @@ After a theme update, compare your copies with the new parent files: **WooCommer
 | `pipsy/metabox/meta_boxes` | Filter | The theme's meta boxes |
 | `kitify/posts/metadata` | Filter | Meta types offered by the Kitify Posts widget |
 
-Custom Elementor widgets belong in your own plugin or the child theme, not in the parent theme's folders.
+The Pipsy widgets are registered by the **Pipsy Core** plugin. Put your own Elementor widgets in your own plugin or in the child theme, not in the folders of the parent theme or of Pipsy Core.

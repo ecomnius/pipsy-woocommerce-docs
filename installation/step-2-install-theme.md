@@ -1,6 +1,6 @@
 # Step 2 - Install Theme
 
-After you download the package from ThemeForest, please unzip it. You'll see a file called `pipsy.zip`, which is the main file needed to upload and install.
+After you download the package from ThemeForest, please unzip it. In the `Theme Files` folder you'll see a file called `pipsy.zip`, which is the main file needed to upload and install.
 
 You can upload and install the theme with the **WordPress theme installer** or with **FTP**.
 
@@ -33,4 +33,4 @@ If the WordPress installer fails, we recommend using FTP.
     It means your host limits the upload file size. Please install the theme via FTP, or contact your hosting company and ask them to increase the limit (see [Requirements for Pipsy](../getting-started/requirements-for-pipsy.md)).
 2.  **The theme is missing the style.css stylesheet** error
 
-    You have most likely uploaded the full package instead of the installable theme file. Unzip the package and upload `pipsy.zip` from inside it.
+    You have most likely uploaded the full package instead of the installable theme file. Unzip the package and upload `pipsy.zip` from its `Theme Files` folder.

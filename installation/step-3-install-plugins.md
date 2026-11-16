@@ -41,7 +41,7 @@ When everything is installed and active, the **Install Plugins** menu item disap
    Sometimes the download fails on some hosts and some files are missing, so the plugin can't be activated. Navigate to **Plugins > Installed Plugins**, delete those plugins and install them again.
 2. **The download from the Novaworks server fails.**
 
-   Upload the plugins manually: go to **Plugins > Add New Plugin > Upload Plugin** and choose the ZIP files from the `plugins` folder of the full theme package.
+   Upload the plugins manually: go to **Plugins > Add New Plugin > Upload Plugin** and choose the ZIP files from the `Plugins` folder of the full theme package.
 3. **I can't find Appearance > Install Plugins.**
 
    The menu item is only shown while a required or recommended plugin is missing, inactive or outdated.

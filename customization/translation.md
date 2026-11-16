@@ -5,7 +5,7 @@ Pipsy is translation ready. Its texts come from four places, and each is transla
 | Texts | Where they come from | How to translate |
 | --- | --- | --- |
 | Theme texts ("Add to bag", "Sizes %s", messages) | The **Pipsy** theme, text domain `pipsy` | Translation file, see below |
-| Theme Options labels, mega menu, product filter | The **Pipsy Core** plugin, text domain `pipsy-core` | Translation file, see below |
+| Theme Options labels, Pipsy widgets (control labels and default texts), mega menu, product filter | The **Pipsy Core** plugin, text domain `pipsy-core` | Translation file, see below |
 | Kitify widgets | The **Kitify** plugin, text domain `kitify` | Translation file |
 | Page content, widget texts, menus | Your Elementor pages and templates | Edit them in Elementor, or use a multilingual plugin |
 
@@ -43,10 +43,10 @@ Every visible text of the Pipsy widgets is a control in the **Content** tab, wit
 
 Pipsy includes a `wpml-config.xml` file for [WPML](https://wpml.org/). For a store in several languages you need a multilingual plugin that supports WooCommerce and Elementor, such as WPML or Polylang.
 
-<!-- TODO: Pipsy has not been tested with WPML or Polylang yet. Test the header, the mega menu, the Size Finder links and the Set Builder on a multilingual site before promising compatibility on the item page. -->
+{% hint style="warning" %}
+Pipsy 1.0.0 has not been tested with WPML or Polylang. Try your multilingual plugin on a staging site first, and check the header, the mega menu, the Size Finder links and the Set Builder in each language.
+{% endhint %}
 
 ## RTL languages
 
-<!-- TODO: confirm whether Pipsy ships RTL styles before release; no rtl.css was found in the theme. -->
-
-RTL support has not been confirmed for this version. Contact [support](../support/support.md) if you plan to use a right-to-left language.
+Pipsy 1.0.0 does not support right-to-left languages: the theme has no RTL stylesheet.
